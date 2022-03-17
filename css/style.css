@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background: #ecf2f8;
+    display: flex;
+}
+
+.main {
+    width: 58%;
+    margin: 100px auto;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.main .comentarios {
+    width: 85%;
+    border-radius: 10px;
+}       
+.main .coment1 {
+    display: flex;
+}
+
+.main .coment1 .div1 {
+    width: 65%;
+    color: #fff;
+    padding: 25px 44px;
+    background: #7541c8;
+    border-radius: 10px;
+}
+
+.main .coment1 .div1 .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main .coment1 .div1 .user img{
+    border-radius: 100%;
+}
+.main .coment1 .div1 .user .name {
+    margin-left: 10px;
+}
+.main .coment1 .div1 .user .name h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main .coment1 .div1 .user .name p{
+    font-size: 14px;
+}
+.main .coment1 .div1 h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main .coment1 .div1 p {
+    font-size: 13px;
+    opacity: .7;
+    font-weight: 600;
+    line-height: 25px;
+}
+.main .coment1 .div2 {
+    width: 35%;
+    margin-left: 20px;
+    background: brown;
+}
+
+.main aside {
+    width: 20%;
+    margin-left: 20px;
+    background: blueviolet;
+}
